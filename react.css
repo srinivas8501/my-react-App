@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+     box-sizing: border-box;
+}
+/* Body and header Container  */
+.container-fluid{
+    width: 100%;
+}
+ /* Header */
+.header{
+    width: 100%;
+    box-shadow: 0px 3px aliceblue;
+    z-index: 9999;
+    background-color: #fff;
+}
+/* offcanvas */
+.offcanvas-header{
+    background-color: orangered;
+}
+.input-group button{
+        padding: 10px;
+        border-radius: 10px;
+}
+.login-details span p {
+    margin-top: 10px; 
+}
+/* logo */
+.img-logo{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 20%;
+    cursor: pointer;
+ }
+ /* Search */
+ .search{
+    width: 300px;
+    height: 40px;
+    border-radius: 19px;
+    border: 2px solid black;
+    padding: 10px;
+ }
+ /* Nav links */
+ .ul li a{
+    font-weight: bolder;
+    color: orange;
+    font-size: 25px;
+}
+/* Restomenu Card */
+.card{
+   width: 250px;
+   border: none;
+   padding: 10px; 
+}
+.card-body{
+    font-weight: bold;
+    padding: 15px;
+}
+.card-img-top{
+    height: 180px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.card-img-top:hover{
+    scale: 1.1;
+}
+/* filter buttons*/
+.btn1{
+    width: auto;
+    padding: 10px;
+    font-size: 15px;
+    margin: 10px;
+    text-transform: capitalize;
+    background-color: transparent;
+    color: black;
+}
+/* list sections */
+.list-section1{
+    display: flex;
+}
+/* h2 of list section1 */
+#h2{
+    padding: 10px;
+    margin-top: 110px;
+}
+.list-section2,.list-section3{
+    display:grid;
+    grid-template-columns: repeat(5,20%);
+    border: none;
+    width: 100%;
+     padding-top: 20px;
+}
+
+/* shimmer */
+.Shimmer-ui{
+    display: grid;
+    grid-template-columns: repeat(5,20%);  
+}
+#shimmer-h2{
+    margin-top: 120px;
+}
+.ui{
+    height: 100px;
+    width: 150px;
+    margin: 20PX;
+    border-radius: 10px;
+    background-color: gainsboro;  
+}
+/* footer */
+.footer{
+    padding: 20px 10%;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 100%;
+    background-color: rgb(78, 76, 76);
+ }
+ .footer .footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px ;
+    color: white;
+ }
+ .footer .footer-container .box{
+    flex:  250px;
+ }
+ .footer .footer-container .box h2{
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 10px 0;
+ }
+ .footer .footer-container .box a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    font-size: 20px;
+ }
+ .footer .footer-container .box a:hover{
+    color: rgb(243, 236, 238);
+    text-decoration: underline;
+ }
+ .footer .copy   h3{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 20px;
+    color: white;
+ }
+ /* About-us */
+ .about-us{
+    margin-top: 90px;
+}
+ .bg-warning {
+    background-color: #f5851f !important;
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}   
+.no-gutters>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+.img_with_text {
+    margin-bottom: 55px;
+}   
+.p-5 {
+    padding: 3rem!important;
+}
+.img_with_text h3 {
+    color: #fff;
+    font-size: 30px;
+}
+h3 {
+    margin-bottom: 30px;
+    line-height: 1.4em;
+    margin-top: 0;
+    font-weight: 400;
+}
+/* contact-us */
+.contactUs{
+    background-image: url('https://vendor-media-assets.swiggy.com/static-assets/images/PartnerBG.png');
+    width: 100%;
+    height: 90vh;
+    margin-top: 90px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+   padding: 30px;
+   border: 2px solid gray;
+}
+input{
+   padding: 10px;
+   margin-top: 10px;
+   
+}
+/* Menu in Menucomponent */
+.menu{
+    padding: 10px;
+    margin: 10px 0 0 10px;
+}
+.menu h2{
+    margin-top: 110px;
+    margin-left: 10px;
+}
+.menu p{
+    margin-left: 20px;
+    color: rgb(175, 170, 170);
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+.menucat{
+    padding: 10px;
+    margin: 10px 0 0 10px;
+}
+.menucat h3{
+    background-color: gainsboro;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* menu-items */
+.item{
+    list-style-type: none;
+    font-size: 1.3rem;
+    margin: 5px 0 0 5px;
+}
+.itemImg{
+    border-radius: 19px;  
+}
+.list-items li{
+    display: flex;
+    outline: solid #f5851f;
+    padding: 7px;
+    justify-content: space-evenly;
+}
+.list-items li p{
+   align-items: center;
+    display: flex;
+    color: black;
+}
+.list-items li span button {
+    margin-left: 5px;
+    padding: 15px;
+    width: 90px;
+}
+.cart h1{
+    margin-top: 120px;
+}
+
